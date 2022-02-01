@@ -114,6 +114,22 @@ const Awards = (props) => {
           </>
         )}
       </table>
+      <footer>
+      <div>
+        <h3 class="intro">
+            &copy;
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/sitaram-koundinya/"
+          >
+            Linkedin/sitaram-koundinya
+          </a> {" | "}
+          <a href="https://github.com/KoundinyaSi/nobelprize-react" target="_blank">
+            GitHub/KoundinyaSi
+          </a>
+        </h3>
+      </div>
+      </footer>
     </div>
   );
 };

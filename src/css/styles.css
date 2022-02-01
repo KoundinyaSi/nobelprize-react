@@ -7,11 +7,21 @@ body {
   background-repeat: no-repeat;
   color: #FBF8F1;
 }
-
+.intro{
+    font-family: 'Epilogue', sans-serif;
+}
 .wrapperDiv {
   backdrop-filter: brightness(60%);
 }
-
+.intro{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.intro a{
+    text-decoration: none;
+    color: black;
+}
 .tableTR{
     height: 40vh;
     display: flex;
