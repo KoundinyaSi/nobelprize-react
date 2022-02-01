@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Epilogue&family=Quintessential&family=Rampart+One&family=Supermercado+One&display=swap');
+body {
+  /* background-image: url("../media/bokeh.jpg"); */
+  /* background-color: black; */
+  background: radial-gradient(#e97676, #aeb5ff);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #FBF8F1;
+}
+
+.wrapperDiv {
+  backdrop-filter: brightness(60%);
+}
+
+.tableTR{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.filtersDiv{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+    align-items: center;
+    /* justify-content: center; */
+}
+#headerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  font-family: 'Epilogue', sans-serif;
+}
+.react-datepicker-wrapper
+ {
+  width: 50%;
+  margin: 2%;
+}
+
+.react-datepicker__input-container,
+.react-datepicker__input-container input{
+    background-color: transparent;
+    border-color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Supermercado One", cursive;
+  font-size: 2rem;
+    width: 100%;
+}
+
+#awards-heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 10rem;
+}
+table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+td {
+  display: flex;
+  justify-content: center;
+  /* font-weight: 1000; */
+  height: 100px;
+  /* vertical-align: top; */
+  align-items: center;
+}
+
+.laur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.laur tr {
+  font-family: "Supermercado One", cursive;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+th {
+  display: none;
+}
+/* 
+.award-year {
+  display: none;
+  font-family: 'Supermercado One', cursive;    
+    font-weight: 800;
+    font-size: 5rem;
+}
+ */
+
+.award-category {
+  font-family: "Comfortaa", cursive;
+  font-weight: 1000;
+  font-size: 5rem;
+  padding: 2%;
+  text-transform: uppercase;
+  /* color: #142F43; */
+}
